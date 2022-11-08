@@ -87,9 +87,9 @@ public class Student {
     public void printNote(){
         System.out.println("=========================");
         System.out.println("Öğrenci : " + this.name);
-        System.out.println("Matematik Notu : " + this.mat.note);
-        System.out.println("Fizik Notu : " + this.fizik.note);
-        System.out.println("Kimya Notu : " + this.kimya.note);
+        System.out.println("Matematik Yazılı ve Sözlü notu: " + this.mat.note+" , "+this.mat.viNote);
+        System.out.println("Fizik Notu Yazılı ve Sözlü notu : " + this.fizik.note+" , "+this.fizik.viNote);
+        System.out.println("Kimya Notu Yazılı ve Sözlü notu : " + this.kimya.note+" , "+this.kimya.viNote);
     }
 
 }
